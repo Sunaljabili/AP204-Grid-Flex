@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #343a40;
+    padding: 15px;
+}
+.carousel  {
+    font-size: 25px !important;
+ }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    color: wheat;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li:hover{
+font-size: 25px;
+color: red;
+transition: 2s;
+}
+.search-btn {
+    margin: 10px;
+}
+.search-btn input {
+    padding: 10px;
+    border: 2px solid green;
+}
+.search-btn  button{
+padding: 10px;
+color: green;
+background-color: #343a40;
+width: 75px;
+border: 2px solid green;
+border-radius: 10px;
+transition: 1s;
+cursor: pointer;
+margin-left: 10px;
+}
+.search-btn  button:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
+#slider{
+    width: 100%;
+    background-color: gray;
+    position: relative;
+}
+#slider .container{
+text-align: center;
+padding: 120px;
+}
+#slider .container h1{
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: white;
+}
+#slider .container button{
+  background-color: hotpink;
+  border: none;
+  color: white;
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+.left-icon{
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    color: rgb(138, 54, 54);
+}
+.right{
+    position: absolute;
+    right: 50px;
+    color: rgb(141, 46, 46);
+    top: 160px;
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    width: 90%;
+}
+
+#cards .card-item .box{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    padding-top: 150px;
+}
+#cards .card-item .box h1,p{
+    text-align: center;
+}
+
+#cards .card-item .box button{
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border: none;
+    background-color: greenyellow;
+}
